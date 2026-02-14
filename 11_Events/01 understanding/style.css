@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* .grand-parent{
+    padding: 90px;
+    background-color: black;
+}
+
+.parent{
+    padding: 70px;
+    margin: 70px;
+    background-color: brown;
+}
+
+.child{
+    padding: 50px;
+    margin: 50px;
+    background-color: lightseagreen;
+} */
+
+.container{
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 150px;
+    cursor: grabbing;
+}
+
+.box{
+    background-color: brown;
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
